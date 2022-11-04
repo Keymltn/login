@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main{
+  background-color: rgb(125, 125, 125);
+  padding: 80px 60px;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Main_login{
+  background-color: white;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.Main_login-text{
+  padding: 30px;
+}
+
+.Main_login-part{
+  padding: 10px 60px;
+  width: 300px;
+  width: 500px;
+}
+
+.Main_img{
+  width: 800px;
+  height: 100%;
+}
+
+.Walpaper{
+  width: 840px;
+  height: 100%;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.Main-word{
+  display: flex;
+  align-items: center;
+  margin: 0px 30px 0 -10px;
+}
+
+.Or{
+  color: rgb(108, 108, 108);
+  padding-top: 15px;
+}
+
+.Google{
+  width: 35px;
+  height: 35px;
+}
+
+.Btn{
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 7px;
+  color: rgb(47, 47, 47);
+  border: 2px rgb(43, 43, 43) solid;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(66, 66, 66);
+  padding: 30px 0;
+}
+
+hr{
+  width: 100%;
+  height: 1px;
+  margin-top: 8px;
+  color: rgb(255, 0, 0);
+}
+
+p{
+  font-size: 19px;
+}
+
+.Remember{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 30px;
+}
+
+label{
+  margin-left: 10px;
+}
+
+.Login{
   color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  background-color: black;
+  /* margin-bottom: 20px; */
 }
 
-.App-link {
-  color: #61dafb;
+.btm{
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Padaaas{
+  margin: 20px 0 0 30px;
+  font-size: 16px;
+}
+
+.Email{
+  border: none;
+  border-bottom: 2px rgb(186, 186, 186) solid;
+  outline: none;
+  width: 100%;
+}
+
+.Email{
+  border: none;
+  border-bottom: 2px rgb(186, 186, 186) solid;
+  width: 100%;
+  outline: none;
+}
+
+.Email:focus ~ label,
+.Email:focus ~ label{
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: blueviolet;
+  transition: 1s;
+}
+
+.input-1{
+  position: relative;
+  margin-bottom: 40px;
+  transition: 1s;
+}
+
+.label-inp{
+  position: absolute;
+  left: -10px;
+  top: 0px;
 }
